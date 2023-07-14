@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://daplaci.github.io/main/sitemap.xml
+Sitemap: https://daplaci.github.io//sitemap.xml
