@@ -1,6 +1,8 @@
 ---
-layout: default
-title: blog
+layout: page
+title: Blog
+nav: false
+nav_order: 7
 pagination:
   enabled: true
   collection: posts
@@ -59,7 +61,7 @@ pagination:
       <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
       {% for post in featured_posts %}
         <div class="card-item col">
-          <a href="{{ post.url | relative_url }}">
+          <a href="{{ item.url }}">
             <div class="card hoverable">
               <div class="row g-0">
                 <div class="col-md-12">
@@ -67,8 +69,7 @@ pagination:
                     <div class="float-right">
                       <i class="fa-solid fa-thumbtack fa-xs"></i>
                     </div>
-                    <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-                    <p class="card-text">{{ post.description }}</p>
+                    <h3 class="card-title text-lowercase">{{ item.title }}</h3>
 
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}

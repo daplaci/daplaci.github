@@ -2,96 +2,56 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Davide Placido
     - name: Date of Birth
-      value: 14th March 1879
+      value: 17th Dec 1994
     - name: Languages
-      value: English, German
+      value: English, Italian
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Copenhagen, Copenhagen, Denmark
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Biostatistics and Bioinformatics
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Durin my PhD I worked on a survival model based on EHR for patients in intensive care. I also worked on a risk model for early detection of pancreatic cancer.
+    - title: Master Degree
+      institution: Polytechnic University of Turin
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Biomedical instrumentation and informatics
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - Durin my master degree I specialized in biomedical instrumentation and medical informatics. 
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Scientific interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine learning
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Pytorch,  Keras
+        - Scikit-learn, Numpy, Pandas, Google Colab
+    - title: ETL pipelines and databases
       items:
-        - Description 1.
-        - Description 2.
+        - Snakemake
+        - PostgreSQL, duckDB, BigQuery
+        - Json, Git
+    - title: Programming Languages 
+      items:
+        - Expert and use daily Python, SQL
+        - Have used it and sometimes work with it R, Matlab, bash
+        - Have used in the past but haven't worked in a long time C, Assembly
+        - Have learned in the past, have not had chance to work on it Julia, Rust
+        
+    - title: Cloud computing
+      items:
+        - On premise cloud
+        - GCP
+        - AWS
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Board games, hiking and making pizza

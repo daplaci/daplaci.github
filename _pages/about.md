@@ -1,26 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PostDoc, Center for Protein Research<br> <a href='https://www.cpr.ku.dk/staff/?pure=en/persons/641347'> University of Copenhagen</a>. Denmark.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot_davide_placido.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: false # add address with '> Copenhagen 2100, Denmark '
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
+news: true  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am particularly interested in leveraging machine learning models for healthcare applications.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have obtained a bachelor and master degree in biomedical engineering from the Polytechnic University of Turin. My thesis was conducted at Technical University of Denmark (DTU), where I worked on prediction models for ICU patients. My main focus was expanding current models with features from high-frequency time-series. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Following this experience, I made the decision to pursue a Ph.D. at the Novo Nordisk Foundation Center for Protein Research, supervised by Søren Brunak. During this time, I investigated how machine learning models may improve healthcare practises. I developed software for clinical decision support and early detection of cancer.
