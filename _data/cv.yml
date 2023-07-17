@@ -8,23 +8,30 @@
     - name: Languages
       value: English, Italian
 
-- title: Education
+- title: Research experience
   type: time_table
   contents:
-    - title: PhD
+
+    - title: PostDoc
       institution: University of Copenhagen, Copenhagen, Denmark
       year: 2023
       description:
+        - title: Working on expanding previous work from 
+
+    - title: PhD
+      institution: University of Copenhagen, Copenhagen, Denmark
+      year: 2019 - 2023
+      description:
         - title: Biostatistics and Bioinformatics
           contents:
-            - Durin my PhD I worked on a survival model based on EHR for patients in intensive care. I also worked on a risk model for early detection of pancreatic cancer.
-    - title: Master Degree
-      institution: Polytechnic University of Turin
-      year: 2019
+            - DUring this period I worked on machine learning models for early detection of pancreatic cancer using patient’s
+disease history from the Danish registries. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments.
+    
+    - title: Visiting PhD student
+      institution: Harvard medical school
+      year: 2022
       description:
-        - title: Biomedical instrumentation and informatics
-          contents:
-            - Durin my master degree I specialized in biomedical instrumentation and medical informatics. 
+        - title: 
 
 - title: Scientific interests
   type: nested_list
@@ -51,7 +58,17 @@
         - GCP
         - AWS
 
-- title: Other Interests
-  type: list
-  contents:
-    - Board games, hiking and making pizza
+- title: Education
+    - title: Master Degree
+      institution: Polytechnic University of Turin
+      year: 2017-2019
+      description:
+        - title: Biomedical engineering
+          contents:
+            - Specialization in biomedical instrumentation and medical informatics. 
+
+    - title: Bachelor degree
+      institution: Polytechnic University of Turin
+      year: 2013-2017
+      description:
+        - title: Biomedical engineering
