@@ -12,13 +12,15 @@
   type: time_table
   contents:
     - title: PostDoc
-      institution: University of Copenhagen, Denmark
+      institution: University of Copenhagen
+      location: Copenhagen, Denmark
       year: 2023
       description:
         - I am working on cancer detection using etherogeneous primary care data.
 
     - title: PhD
-      institution: University of Copenhagen, Copenhagen, Denmark
+      institution: University of Copenhagen
+      location: Copenhagen, Denmark
       year: 2019 - 2023
       description:
         - title: Biostatistics and Bioinformatics
@@ -26,7 +28,8 @@
             - I worked on building a machine learning model for early detection of pancreatic cancer using patient’s disease history from the Danish registries. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments.
 
     - title: Visiting PhD
-      institution: Harvard medical school, Boston, USA
+      institution: Harvard medical school
+      location: Boston, USA
       year: 2022
       description: 
         - title: Visiting PhD student at Chris Sander lab in Boston
@@ -35,6 +38,7 @@
 
     - title: Master thesis project
       institution: Technical University of Denmark
+      location: Copenhagen, Denmark
       year: 2018 - 2019
       description: 
         - title: Visiting Sadasivan Puthusserypady at signal processing department, DTU. 
@@ -42,8 +46,11 @@
             - I worked on time-series from the the intensive care department to improve a LSTM model using hand-crafted features from high-frequency data.
 
 - title: Scientific interests
-  type: nested_list
+  type: list_groups
   contents:
+    - category: Programming languages
+      icon: fas fa-code
+      items: 
     - title: Machine learning
       items: 
         - Pytorch, Keras
@@ -70,11 +77,11 @@
   type: time_table
   contents:
 
-    - title: Master degree
+    - title: Master degree in biomedical engineering
       institution: Polytechnic University of Turin
       year: 2017 - 2019
       description: During my master I specialized in biomedical instrumentation and medical informatics. My main projects were on biomedical signal processing, image processing and data analysis, IoT and .
 
-    - title: Bachelor degree
+    - title: Bachelor degree in biomedical engineering
       institution: Polytechnic University of Turin
       year: 2013 - 2017

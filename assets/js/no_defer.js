@@ -14,7 +14,7 @@ $(document).ready(function() {
       // make table use bootstrap-table
       $(this).attr('data-toggle','table');
       // add some classes to make the table look better
-      //$(this).addClass('table-sm');
+      // $(this).addClass('table-sm');
       $(this).addClass('table-hover');
     }
   })
