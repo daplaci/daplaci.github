@@ -11,12 +11,11 @@
 - title: Research experience
   type: time_table
   contents:
-
     - title: PostDoc
-      institution: University of Copenhagen, Copenhagen, Denmark
+      institution: University of Copenhagen, Denmark
       year: 2023
       description:
-        - title: Working on expanding previous work from 
+        - I am working on cancer detection using etherogeneous primary care data.
 
     - title: PhD
       institution: University of Copenhagen, Copenhagen, Denmark
@@ -24,21 +23,30 @@
       description:
         - title: Biostatistics and Bioinformatics
           contents:
-            - DUring this period I worked on machine learning models for early detection of pancreatic cancer using patient’s
-disease history from the Danish registries. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments.
-    
-    - title: Visiting PhD student
-      institution: Harvard medical school
+            - I worked on building a machine learning model for early detection of pancreatic cancer using patient’s disease history from the Danish registries. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments.
+
+    - title: Visiting PhD
+      institution: Harvard medical school, Boston, USA
       year: 2022
-      description:
-        - title: 
+      description: 
+        - title: Visiting PhD student at Chris Sander lab in Boston
+          contents:
+            - I worked on validating the model trained in Denmark on an external US dataset.
+
+    - title: Master thesis project
+      institution: Technical University of Denmark
+      year: 2018 - 2019
+      description: 
+        - title: Visiting Sadasivan Puthusserypady at signal processing department, DTU. 
+          contents:
+            - I worked on time-series from the the intensive care department to improve a LSTM model using hand-crafted features from high-frequency data.
 
 - title: Scientific interests
   type: nested_list
   contents:
     - title: Machine learning
       items: 
-        - Pytorch,  Keras
+        - Pytorch, Keras
         - Scikit-learn, Numpy, Pandas, Google Colab
     - title: ETL pipelines and databases
       items:
@@ -47,10 +55,10 @@ disease history from the Danish registries. I also worked on the development of 
         - Json, Git
     - title: Programming Languages 
       items:
-        - Expert and use daily Python, SQL
-        - Have used it and sometimes work with it R, Matlab, bash
+        - Expert Python, SQL
+        - Less frequent user R, Matlab, bash
         - Have used in the past but haven't worked in a long time C, Assembly
-        - Have learned in the past, have not had chance to work on it Julia, Rust
+        - Basic knowledge from textbook Julia, Rust
         
     - title: Cloud computing
       items:
@@ -59,16 +67,14 @@ disease history from the Danish registries. I also worked on the development of 
         - AWS
 
 - title: Education
-    - title: Master Degree
+  type: time_table
+  contents:
+
+    - title: Master degree
       institution: Polytechnic University of Turin
-      year: 2017-2019
-      description:
-        - title: Biomedical engineering
-          contents:
-            - Specialization in biomedical instrumentation and medical informatics. 
+      year: 2017 - 2019
+      description: During my master I specialized in biomedical instrumentation and medical informatics. My main projects were on biomedical signal processing, image processing and data analysis, IoT and .
 
     - title: Bachelor degree
       institution: Polytechnic University of Turin
-      year: 2013-2017
-      description:
-        - title: Biomedical engineering
+      year: 2013 - 2017
