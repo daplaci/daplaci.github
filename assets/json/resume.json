@@ -11,7 +11,6 @@
     "url": "https://daplaci.github.io",
     "summary": "I am a biomedical engineer with a strong interest in data science in healthcare. With a PhD in bioinformatics and biostatistics, I have expertise in developing machine learning models and handling heterogeneous biomedical data. Now, I am eager to leverage my research experience and translate these innovative applications into real-world solutions.",
     "location": {
-      "address": "Copenhagen",
       "postalCode": "2300",
       "city": "Copenhagen",
       "countryCode": "Denmark",
@@ -22,46 +21,58 @@
         "network": "Linkedin",
         "username": "davide-placido-6a2419158",
         "url": "https://www.linkedin.com/in/davide-placido-6a2419158/"
+      },
+      {
+        "network": "GitHub",
+        "username": "daplaci",
+        "url": "https://github.com/daplaci"
+      },
+      {
+        "network": "external-link-square",
+        "username": "Personal website",
+        "url": "https://daplaci.github.io"
       }
     ]
   },
   "work": [
     {
-      "name": "Postdoctoral researcher",
-      "institution": "University of Copenhagen",
-      "url": "",
+      "name": "University of Copenhagen",
+      "position": "Postdoctoral researcher",
+      "location": "Copenhagen, Denmark",
+      "url": "https://www.cpr.ku.dk/staff/?pure=en/persons/641347",
       "startDate": "2023-02-01",
-      "summary": "I am working on cancer detection using etherogeneous primary care data.",
-      "highlights": [
-        "Cancer"
-      ]
+      "summary": "Building on previous work, I am working on the development on DL models for cancer detection using new data modalities."
     },
     {
-      "name": "Research assistant + PhD",
-      "institution": "University of Copenhagen",
-      "url": "",
+      "name": "University of Copenhagen",
+      "position": "Research assistant and PhD",
+      "location": "Copenhagen, Denmark",
+      "url": "https://www.cpr.ku.dk/staff/?pure=en/persons/641347",
       "startDate": "2019-04-01",
       "endDate": "2023-01-31",
-      "summary": "I worked on machine learning models for early detection of pancreatic cancer using patient’s disease history from the Danish registries. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments.",
+      "summary": "In this period I conducted research at the Novo Nordisk Center for Protein Research. I have been actively working on various projects encompassing machine learning applications on diverse and unique datasets, including registries, electronih health records and medical images. Notably, I worked on the development of models for early detection of pancreatic cancer using patient’s disease history from the Danish registries. This study was published in Nature medicine. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments, which was published on PLOS digital heath. Other projects involved survival analysis in the ICU and pharmacovigilance using NLP techniques.",
       "highlights": [
-        "NLP", "Neural networks", "Entity embeddings", "ICU", "pancreatic cancer"
+        "NLP", "Neural networks", "Entity embeddings", "ICU", "Pancreatic cancer", "Medical images"
       ]
     },
     {
-      "name": "Visiting researcher",
-      "institution": "Harvard medical school",
-      "url": "",
+      "name": "Harvard medical school",
+      "position": "Visiting researcher",
+      "location": "Boston, USA",
       "startDate": "2022-01-10",
       "endDate": "2022-07-31",
-      "summary": "I worked on validating the model trained in Denmark on an American dataset using Google cloud platform."
+      "summary": "This experience was part of the change of research environment of my PhD. In this period I visited Chris Sander's lab in Boston, continuing working pancreatic cancer prediction. In particular, the aim of my visit was testing the generalizability of the model trained on the Danish data on a US dataset. To accomplish this, I had to deploy the ML model on a new cloud, Google cloud platform, and develop a new pipeline for the data preprocessing.",
+      "highlights": [
+        "generalizability", "GCP", "cloud computing"
+      ]
     },
     {
-      "name": "Research master student",
-      "institution": "Techincal university of Denmark",
-      "url": "",
+      "name": "Techincal university of Denmark",
+      "position": "Research master student",
+      "location": "Copenhagen, Denmark",
       "startDate": "2018-09-01",
       "endDate": "2019-02-28",
-      "summary": "I worked on time-series from the intensive care department to improve a LSTM model using hand-crafted features from high-frequency data.",
+      "summary": "This research project was part of my master thesis. In this period my task was to try improving current mortality risk models in the intensive care unit (ICU). In particular, I worked on time-series collected by monitors in the ICU to enhance an LSTM model using hand-crafted features from high-frequency data.",
       "highlights": [
         "time-series", "ICU", "monitors", "empirical mode decomposition", "LSTM"
       ]
@@ -69,35 +80,62 @@
   ],
   "volunteer": [],
   "awards": [],
-  "certificates": [],
   "skills": [
     {
+      "icon": "fa fa-gears",
       "keywords":[
         "Pytorch", "Keras", "Scikit-learn", "Numpy", "Pandas", "Google Colab"
       ],
       "name": "Machine learning",
-      "level": "advanced"
+      "level": "Advanced"
     },
     {
+      "icon": "fa fa-code",
       "keywords":[
-        "Python", "R", "SQL", "Bash", "LaTeX"
+        "Python", "R", "SQL"
       ],
       "name": "Programming",
-      "level": "advanced"
+      "level": "Advanced"
     },
     {
+      "icon": "fa fa-code",
+      "keywords":[
+         "Bash", "LaTeX", "Matlab"
+      ],
+      "name": "Programming",
+      "level": "Intermediate"
+    },
+    {
+      "icon": "fa fa-code",
+      "keywords":[
+         "C", "Rust", "Assembly"
+      ],
+      "name": "Programming",
+      "level": "Basic"
+    },
+    {
+      "icon": "fas fa-book",
       "keywords":[
         "Snakemake", "PostgresSQL", "duckDB", "BigQuery", "Json", "Git"
       ],
       "name": "Data management",
-      "level": "advanced"
+      "level": "Advanced"
     },
     {
+      "icon": "fas fa-cloud",
       "keywords":[
-        "GCP", "AWS", "Docker containers", "Github actions", "CI/CD"
+        "GCP", "AWS", "On-premise"
+      ],
+      "name": "Cloud",
+      "level": "Intermediate"
+    },
+    {
+      "icon": "fas fa-toolbox",
+      "keywords":[
+        "Github actions", "Docker", "CI/CD"
       ],
       "name": "DevOps",
-      "level": "intermediate"
+      "level": "Intermediate"
     }
   ],
   "publications": [
@@ -129,6 +167,26 @@
       "url":"https://onlinelibrary.wiley.com/doi/10.1111/bcpt.13773",
       "summary": "Benjamin Skov Kaas‐Hansen, Davide Placido, Cristina Leal Rodríguez, ..., Stig Ejdrup Andersen"
     }
+  ],
+  "certificates": [
+    {
+      "name": "DevOps, DataOps, MLOps",
+      "date": "2023-05-25",
+      "issuer": "Duke University",
+      "url": "https://coursera.org/share/668ad2363cc82ae4a8991709e500ce33"
+    },
+    {
+      "name": "Enterprise Model Deployment",
+      "date": "2021-05-05",
+      "issuer": "IBM",
+      "url": "https://coursera.org/share/ae2907c155adaa7e8da299a1a9afafe8"
+    },
+    {
+      "name": "ML, Visual Recognition and NLP",
+      "date": "2021-05-05",
+      "issuer": "IBM",
+      "url": "https://coursera.org/share/bff306813035f35099e65d0611372ead"
+    }  
   ],
   "education": [
     {
