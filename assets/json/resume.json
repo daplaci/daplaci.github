@@ -4,14 +4,15 @@
   },
   "basics": {
     "name": "Davide Placido",
-    "label": "PostDoc",
-    "image": "https://avatars.githubusercontent.com/daplaci",
+    "label": "PostDoc, Biomedical engineer",
+    "picture": "https://avatars.githubusercontent.com/daplaci",
     "email": "dav.placido@gmail.com",
     "phone": "+45 44102825",
     "url": "https://daplaci.github.io",
     "summary": "I am a biomedical engineer with a strong interest in data science in healthcare. With a PhD in bioinformatics and biostatistics, I have expertise in developing machine learning models and handling heterogeneous biomedical data. Now, I am eager to leverage my research experience and translate these innovative applications into real-world solutions.",
     "location": {
-      "postalCode": "2300",
+      "address": "Blegdamsvej 3B",
+      "postalCode": "2100",
       "city": "Copenhagen",
       "countryCode": "Denmark",
       "region": "Capital Region"
@@ -36,7 +37,7 @@
   },
   "work": [
     {
-      "name": "University of Copenhagen",
+      "company": "University of Copenhagen",
       "position": "Postdoctoral researcher",
       "location": "Copenhagen, Denmark",
       "url": "https://www.cpr.ku.dk/staff/?pure=en/persons/641347",
@@ -44,36 +45,36 @@
       "summary": "Building on previous work, I am working on the development on DL models for cancer detection using new data modalities."
     },
     {
-      "name": "University of Copenhagen",
+      "company": "University of Copenhagen",
       "position": "Research assistant and PhD",
       "location": "Copenhagen, Denmark",
       "url": "https://www.cpr.ku.dk/staff/?pure=en/persons/641347",
       "startDate": "2019-04-01",
       "endDate": "2023-01-31",
       "summary": "In this period I conducted research at the Novo Nordisk Center for Protein Research. I have been actively working on various projects encompassing machine learning applications on diverse and unique datasets, including registries, electronih health records and medical images. Notably, I worked on the development of models for early detection of pancreatic cancer using patient’s disease history from the Danish registries. This study was published in Nature medicine. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments, which was published on PLOS digital heath. Other projects involved survival analysis in the ICU and pharmacovigilance using NLP techniques.",
-      "highlights": [
+      "keywords": [
         "NLP", "Neural networks", "Entity embeddings", "ICU", "Pancreatic cancer", "Medical images"
       ]
     },
     {
-      "name": "Harvard medical school",
+      "company": "Harvard medical school",
       "position": "Visiting researcher",
       "location": "Boston, USA",
       "startDate": "2022-01-10",
       "endDate": "2022-07-31",
       "summary": "This experience was part of the change of research environment of my PhD. In this period I visited Chris Sander's lab in Boston, continuing working pancreatic cancer prediction. In particular, the aim of my visit was testing the generalizability of the model trained on the Danish data on a US dataset. To accomplish this, I had to deploy the ML model on a new cloud, Google cloud platform, and develop a new pipeline for the data preprocessing.",
-      "highlights": [
+      "keywords": [
         "generalizability", "GCP", "cloud computing"
       ]
     },
     {
-      "name": "Techincal university of Denmark",
+      "company": "Techincal university of Denmark",
       "position": "Research master student",
       "location": "Copenhagen, Denmark",
       "startDate": "2018-09-01",
       "endDate": "2019-02-28",
       "summary": "This research project was part of my master thesis. In this period my task was to try improving current mortality risk models in the intensive care unit (ICU). In particular, I worked on time-series collected by monitors in the ICU to enhance an LSTM model using hand-crafted features from high-frequency data.",
-      "highlights": [
+      "keywords": [
         "time-series", "ICU", "monitors", "empirical mode decomposition", "LSTM"
       ]
     }
@@ -91,27 +92,21 @@
     },
     {
       "icon": "fa fa-code",
-      "keywords":[
-        "Python", "R", "SQL"
-      ],
       "name": "Programming",
-      "level": "Advanced"
-    },
-    {
-      "icon": "fa fa-code",
-      "keywords":[
-         "Bash", "LaTeX", "Matlab"
-      ],
-      "name": "Programming",
-      "level": "Intermediate"
-    },
-    {
-      "icon": "fa fa-code",
-      "keywords":[
-         "C", "Rust", "Assembly"
-      ],
-      "name": "Programming",
-      "level": "Basic"
+      "level": [
+        {
+          "level":"Advanced",
+          "keywords": ["Python", "R", "SQL"]
+        },
+        {
+          "level":"Intermediate",
+          "keywords": ["Bash", "LaTeX", "Matlab"]
+        },
+        {
+          "level":"Basic",
+          "keywords": ["C", "Rust", "Assembly"]
+        }
+      ]
     },
     {
       "icon": "fas fa-book",
@@ -198,7 +193,7 @@
       "startDate": "2017",
       "endDate": "2019",
       "score": "110/110",
-      "courses": [
+      "summary": [
         "During my master I specialized in biomedical instrumentation and medical informatics."
       ]
     },

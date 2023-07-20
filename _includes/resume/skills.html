@@ -1,6 +1,6 @@
 <div class="list-groups">
     {% for content in data[1] %}
-    <div class="list-group col-md-6" title="{{ content.level }}">
+    <div class="list-group col-md-6" title="{{ content.name }}">
       <table class="table-cv list-group-table">
         <tbody>
           <tr>
@@ -15,20 +15,38 @@
               {% assign i = i | plus:1 %}
             {% endfor %}
             <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
-            {% if content.level %}
-              <tr>
-                <td></td>  
-                <td class="list-group-name"><b>{{ content.level }}</b></td>
+            
+            {% for level_value in content.level %}
+              {% if level_value.level %}
+                <tr>
+                  <td></td>  
+                  <td class="list-group-name"><b>{{ level_value.level }}</b></td>
+                </tr>
               </tr>
-            {% endif %}
-          </tr>
-          {% for item in content.keywords %}
-          <tr>
-            <td></td>
-            <td class="list-group-name">{{ item }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
+              
+                {% for item in level_value.keywords %}
+                <tr>
+                  <td></td>
+                  <td class="list-group-name">{{ item }}</td>
+                </tr>
+                {% endfor %}
+              {% else %}
+                {% if content.level %}
+                  <tr>
+                    <td></td>  
+                    <td class="list-group-name"><b>{{ content.level }}</b></td>
+                  </tr>
+                {% endif %}
+                </tr>
+                {% for item in content.keywords %}
+                <tr>
+                  <td></td>
+                  <td class="list-group-name">{{ item }}</td>
+                </tr>
+                {% endfor %}
+              {%endif%}              
+            {% endfor %}
+          </tbody>
       </table>
     </div>
     {% endfor %}
