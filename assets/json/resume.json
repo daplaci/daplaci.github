@@ -11,7 +11,6 @@
     "url": "https://daplaci.github.io",
     "summary": "I am a biomedical engineer with a strong interest in data science in healthcare. With a PhD in bioinformatics and biostatistics, I have expertise in developing machine learning models and handling heterogeneous biomedical data. Now, I am eager to leverage my research experience and translate these innovative applications into real-world solutions.",
     "location": {
-      "address": "Blegdamsvej 3B",
       "postalCode": "2100",
       "city": "Copenhagen",
       "countryCode": "Denmark",
@@ -27,11 +26,6 @@
         "network": "GitHub",
         "username": "daplaci",
         "url": "https://github.com/daplaci"
-      },
-      {
-        "network": "external-link-square",
-        "username": "Personal website",
-        "url": "https://daplaci.github.io"
       }
     ]
   },
@@ -42,7 +36,7 @@
       "location": "Copenhagen, Denmark",
       "url": "https://www.cpr.ku.dk/staff/?pure=en/persons/641347",
       "startDate": "2023-02-01",
-      "summary": "Building on previous work, I am working on the development on DL models for cancer detection using new data modalities."
+      "summary": "Building on previous work, I am working on the development of DL models for cancer detection using new data modalities."
     },
     {
       "company": "University of Copenhagen",
@@ -51,7 +45,7 @@
       "url": "https://www.cpr.ku.dk/staff/?pure=en/persons/641347",
       "startDate": "2019-04-01",
       "endDate": "2023-01-31",
-      "summary": "In this period I conducted research at the Novo Nordisk Center for Protein Research. I have been actively working on various projects encompassing machine learning applications on diverse and unique datasets, including registries, electronih health records and medical images. Notably, I worked on the development of models for early detection of pancreatic cancer using patient’s disease history from the Danish registries. This study was published in Nature medicine. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments, which was published on PLOS digital heath. Other projects involved survival analysis in the ICU and pharmacovigilance using NLP techniques.",
+      "summary": "In this period I conducted research at the Novo Nordisk Center for Protein Research. I have been actively working on various projects encompassing machine learning applications on diverse and unique datasets, including registries, electronic health records and medical images. Notably, I worked on the development of models for early detection of pancreatic cancer using patients' disease history from the Danish registries. I also worked on the development of a decision support tool for detecting clinical deterioration using EHR collected in the general depertments. Other projects involved survival analysis in the ICU and pharmacovigilance using NLP techniques.",
       "keywords": [
         "NLP", "Neural networks", "Entity embeddings", "ICU", "Pancreatic cancer", "Medical images"
       ]
@@ -62,7 +56,7 @@
       "location": "Boston, USA",
       "startDate": "2022-01-10",
       "endDate": "2022-07-31",
-      "summary": "This experience was part of the change of research environment of my PhD. In this period I visited Chris Sander's lab in Boston, continuing working pancreatic cancer prediction. In particular, the aim of my visit was testing the generalizability of the model trained on the Danish data on a US dataset. To accomplish this, I had to deploy the ML model on a new cloud, Google cloud platform, and develop a new pipeline for the data preprocessing.",
+      "summary": "This experience was part of the change of research environment of my PhD. In this period I visited Chris Sander's lab in Boston, continuing working on pancreatic cancer prediction. In particular, the aim of my visit was testing the generalizability of the model trained on the Danish data on a US dataset. To accomplish this, I had to deploy the ML model on a new cloud, Google cloud platform, and develop a new pipeline for the data preprocessing.",
       "keywords": [
         "generalizability", "GCP", "cloud computing"
       ]
@@ -100,7 +94,7 @@
         },
         {
           "level":"Intermediate",
-          "keywords": ["Bash", "LaTeX", "Matlab"]
+          "keywords": ["Bash", "LaTeX", "JavaScript", "Matlab"]
         },
         {
           "level":"Basic",
