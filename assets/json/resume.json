@@ -4,12 +4,11 @@
   },
   "basics": {
     "name": "Davide Placido",
-    "label": "PostDoc, Biomedical engineer",
-    "picture": "https://avatars.githubusercontent.com/daplaci",
-    "email": "dav.placido@gmail.com",
-    "phone": "+45 44102825",
+    "label": "Data Scientist, Biomedical/Bioinformatics Engineer",
+    "email": "",
+    "phone": "",
     "url": "https://daplaci.github.io",
-    "summary": "I am a biomedical engineer with a strong interest in data science in healthcare. With a PhD in bioinformatics and biostatistics, I have expertise in developing machine learning models and handling heterogeneous biomedical data. Now, I am eager to leverage my research experience and translate these innovative applications into real-world solutions.",
+    "summary": "With my BSc and MSc degrees in biomedical engineering complimented by my recent PhD in Bioinformatics and Biostatistics, I believe my profile is a very good fit for the role as Post-doc/Data Scientist in Healthcare Data Predictive Modelling at Novo Nordisk. During my last 4 years of research experience I have worked on predictive models using real world data (electronic health records and Danish registries) resulting in numerous published tools and research articles. This allowed me to develop the technical skills required for this job, including developing and validating ML models across multiple healthcare systems, applying survival analysis in non conventional models, and developing viable, secure, and maintainable software solutions. While my background could be applicable to numerous data science jobs, my passion for healthcare has kept my focus within health-related industries, especially at Novo where there are so many applicable areas that pique my interest. My research experiences and internal/international collaboration efforts have additionally cultivated my problem-solving skills when developing wide-serving complex data science solutions. These skills in addition to my strong technical background and project team experiences have prepared me well to be an effective communicator. I believe I fulfil the requirements as listed within the job advert and look forward to the opportunity to present myself in person to discuss my potential contributions further.",
     "location": {
       "postalCode": "2100",
       "city": "Copenhagen",
@@ -31,12 +30,20 @@
   },
   "work": [
     {
+      "company": "Rigshospitalet",
+      "position": "Data Scientist",
+      "location": "Copenhagen, Denmark",
+      "startDate": "2024-02-01",
+      "summary": "I am currently working on data standardisation and development of predicting models to inform trials in the intensive care"
+    },
+    {
       "company": "University of Copenhagen",
       "position": "Postdoctoral researcher",
       "location": "Copenhagen, Denmark",
       "url": "https://www.cpr.ku.dk/staff/?pure=en/persons/641347",
       "startDate": "2023-02-01",
-      "summary": "Building on previous work, I am working on the development of DL models for cancer detection using new data modalities."
+      "endDate": "2024-01-31",
+      "summary": "Building on previous work, I worked on the development of DL models for cancer detection integrating new data modalities."
     },
     {
       "company": "University of Copenhagen",
@@ -51,7 +58,7 @@
       ]
     },
     {
-      "company": "Harvard medical school",
+      "company": "Harvard Medical School",
       "position": "Visiting researcher",
       "location": "Boston, USA",
       "startDate": "2022-01-10",
@@ -62,7 +69,7 @@
       ]
     },
     {
-      "company": "Techincal university of Denmark",
+      "company": "Technical University of Denmark",
       "position": "Research master student",
       "location": "Copenhagen, Denmark",
       "startDate": "2018-09-01",
@@ -79,7 +86,7 @@
     {
       "icon": "fa fa-gears",
       "keywords":[
-        "Pytorch", "Keras", "Scikit-learn", "Numpy", "Pandas", "Google Colab"
+        "Pytorch", "Keras", "Scikit-learn", "Numpy", "Pandas", "Google Colab", "Transformers"
       ],
       "name": "Machine learning",
       "level": "Advanced"
@@ -179,6 +186,15 @@
   ],
   "education": [
     {
+      "institution": "University of Copenhagen",
+      "location": "Copenhagen, Denmark",
+      "url": "https://www.ku.dk/",
+      "area": "Bioinformatics and Biostatistics",
+      "studyType": "PhD",
+      "startDate": "2020",
+      "endDate": "2023"
+    },
+    {
       "institution": "Polytechnic University of Turin",
       "location": "Turin, Italy",
       "url": "https://www.polito.it",
@@ -199,6 +215,20 @@
       "studyType": "Bachelor degree",
       "startDate": "2013",
       "endDate": "2017"
+    }
+  ],
+  "teaching":[
+    {
+      "institution": "University of Copenhagen",
+      "location": "Copenhagen, Denmark",
+      "area": "Development of neural networks for registry data",
+      "courseName": "Bridge course: Big Data II"
+    },
+    {
+      "institution": "University of Copenhagen",
+      "location": "Copenhagen, Denmark",
+      "area": "Introductive course on Python language",
+      "courseName": "Python Tsunami"
     }
   ],
   "languages": [
